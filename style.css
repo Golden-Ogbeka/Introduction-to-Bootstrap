@@ -1,0 +1,170 @@
+html, body{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-image: url('Background.png');
+  font-size: 14px;
+  font-style: normal;
+  font-family: Avenir;
+  color: #868686;
+  background-size: cover;
+}
+@font-face {
+  font-family: Alternate;
+  src: url(AlternateGothicNo2BT-Regular.ttf);
+}
+@font-face {
+  font-family: Avenir;
+  src: url(AvenirNextLTPro-Regular.ttf);
+}
+h2{
+  font-size: 24px;
+  font-family: Alternate;
+  text-transform: uppercase;
+}
+h1{
+  font-size: 36px;
+  font-family: Alternate;
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+}
+.wrapper{
+  margin: 0 auto;
+}
+.wrapper-width{
+  width: 87%;
+}
+.menu{
+  background: white;
+  width: 100%;
+  padding: 0.1em;
+}
+.p-style{
+  font-weight: bold;
+  font-size: 18px;
+}
+.nav-item{
+  margin-left: 1em;
+}
+a.nav-item{
+  color: #aaa;
+  font-weight: bold;
+}
+a.nav-item:hover{
+  text-decoration: none;
+  color: #ccc;
+}
+.no-padding{
+  padding: 0 !important;
+}
+.divider{
+  margin-top: 2em;
+  width: 60px;
+  border-bottom: 1px solid #ccc;
+}
+.section-swipe{
+  background: white;
+  margin-top: 7em;
+  margin-bottom: 7em;
+  width: 70%;
+  border-radius: 2px;
+  padding-bottom: 4em;
+}
+.section-landing{
+  margin-top: 10em;
+  width: 70%;
+}
+.logo{
+  width: 70%;
+  margin-left: 30.5em;
+}
+.logo img{
+  display: block;
+}
+.landing-text{
+  margin-top: 3em;
+}
+.button-landing{
+  margin-top: 4em;
+  margin-left: 11em;
+}
+.btn-landing{
+  color: #2f3a49;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 1em 2em;
+  /* background-color: transparent; */
+  text-align: center;
+  border: 2px solid gray;
+  margin-right: 2em;
+  border-radius: 8px 5px 5px 8px;
+}
+.btn-landing:hover{
+  color:white;
+  background: #2f3a49;
+  transition: 500ms;
+}
+.btn-style-1{
+  border-radius: 0px 8px 0px 8px;
+}
+.btn-style-2{
+  border-radius: 8px 0px 8px 0px;
+}
+#section-camera{
+  background: #2f3a49;
+  margin-top: 5em;
+  width: 480px;
+  height: 350px;
+  margin-left: 1em;
+  position: relative;
+}
+
+.section-details{
+  background: #fff;
+  padding: 4em 0 4em 1em;
+  text-align: left;
+}
+.section-details-info{
+  margin-top: 9em;
+  text-align: left !important;
+}
+.focus{
+  margin: 4em auto;
+}
+.space{
+  margin-top: 2em;
+}
+.padding{
+  padding: 1em;
+}
+.buttons{
+  margin-top: 2.5em;
+  margin-left: auto;
+  margin-right: auto;
+}
+.btn-capture{
+  display: inline-block;
+  padding: 0.5em 5em;
+  background-color: transparent;
+  text-align: center;
+  border: 2px solid #ccc;
+  margin-left: 1.5em;
+}
+.footer{
+  width: 100%;
+  background: none;
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
+#Login{font-size: 18px;}
+#legend1{font-size: 20px;}
+.slider{padding-left: 17px;}
+.textarea1{
+	float: right;
+	padding-right: 20px;
+	}
+.table1{font-size: 17px}
